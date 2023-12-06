@@ -55,7 +55,7 @@ public class AppController {
      * @throws SQLException
      */
     @RequestMapping(path = "/conexion")
-    public void generacionReporteConexion(HttpServletRequest request, HttpServletResponse response) throws JRException, IOException, SQLException {\
+    public void generacionReporteConexion(HttpServletRequest request, HttpServletResponse response) throws JRException, IOException, SQLException {
         logger.info("Generando reporte conexión");
         File file = reporteServices.reporteConexionPDF();
         downloadArchivoPDF(request, response, "Reporte Conexion", file);
