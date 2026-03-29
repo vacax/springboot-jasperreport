@@ -23,7 +23,7 @@ public class EstudianteJRDataSource implements JRDataSource {
         Puede ser cargado de la base de datos o de servicios externos
          */
         for (int i = 0; i < 100; i++) {
-            listado.add(new EstudianteDTO(new Long(i), "Nombre "+i, "Apellido "+i));
+            listado.add(new EstudianteDTO((long) i, "Nombre "+i, "Apellido "+i));
         }
 
     }

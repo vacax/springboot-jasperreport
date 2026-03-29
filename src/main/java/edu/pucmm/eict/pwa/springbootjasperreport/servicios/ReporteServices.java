@@ -2,10 +2,7 @@ package edu.pucmm.eict.pwa.springbootjasperreport.servicios;
 
 import edu.pucmm.eict.pwa.springbootjasperreport.encapsulaciones.EstudianteJRDataSource;
 import net.sf.jasperreports.engine.*;
-import net.sf.jasperreports.engine.export.JRPdfExporter;
-import net.sf.jasperreports.engine.util.JRLoader;
 import net.sf.jasperreports.engine.util.JRSaver;
-import net.sf.jasperreports.export.SimpleExporterInput;
 import org.springframework.stereotype.Service;
 
 import javax.sql.DataSource;

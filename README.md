@@ -4,17 +4,20 @@ Proyecto para demostrar integración de JasperReport y con Spring Boot.
 
 ## Tecnologías:
 
-- Java 21.
-- Spring Boot 3.2.1.
-- Jasperreport 6.20.0
+- Java 25
+- Spring Boot 4.0.5
+- Hibernate 7.2.7
+- JasperReport 7.0.3
+- DataFaker 2.5.4
+- Gradle 9.4.1
 - H2 (Memoria)
 
-## Generaración Docker
+## Generación Docker
 
 Compilar la imagen docker
 
 ```
-docker build -t springboot-jaspereport 
+docker build -t springboot-jaspereport .
 ```
 
 Ejecutar la imagen
